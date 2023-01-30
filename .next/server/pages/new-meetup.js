@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NewMeetupForm_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NewMeetupForm.module.css */ "./components/meetups/NewMeetupForm.module.css");
 /* harmony import */ var _NewMeetupForm_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_NewMeetupForm_module_css__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "D:\\react\\06-onwards-to-a-bigger-project-starting-project\\components\\meetups\\NewMeetupForm.js";
+var _jsxFileName = "D:\\react\\Meetups project (NextJS)\\components\\meetups\\NewMeetupForm.js";
 
 
 
@@ -293,7 +293,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Card_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Card.module.css */ "./components/ui/Card.module.css");
 /* harmony import */ var _Card_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Card_module_css__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "D:\\react\\06-onwards-to-a-bigger-project-starting-project\\components\\ui\\Card.js";
+var _jsxFileName = "D:\\react\\Meetups project (NextJS)\\components\\ui\\Card.js";
 
 
 function Card(props) {
@@ -345,7 +345,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 
-var _jsxFileName = "D:\\react\\06-onwards-to-a-bigger-project-starting-project\\pages\\new-meetup\\index.js";
+var _jsxFileName = "D:\\react\\Meetups project (NextJS)\\pages\\new-meetup\\index.js";
 //our-domain.com/newMeetup
 
 

@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _MeetupDetail_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MeetupDetail.module.css */ "./components/meetups/MeetupDetail.module.css");
 /* harmony import */ var _MeetupDetail_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_MeetupDetail_module_css__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "D:\\react\\06-onwards-to-a-bigger-project-starting-project\\components\\meetups\\MeetupDetail.js";
+var _jsxFileName = "D:\\react\\Meetups project (NextJS)\\components\\meetups\\MeetupDetail.js";
 
 
 function MeetupDetail(props) {
@@ -186,7 +186,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 
-var _jsxFileName = "D:\\react\\06-onwards-to-a-bigger-project-starting-project\\pages\\[meetupId]\\index.js";
+var _jsxFileName = "D:\\react\\Meetups project (NextJS)\\pages\\[meetupId]\\index.js";
 
 
 
