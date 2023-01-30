@@ -31,7 +31,15 @@ export async function getStaticPaths() {
   client.close();
   //first empty object will give me all object,second arg will define which felid should be extract for every doc, _id: 1 =>this mean only include the id
   return {
-    fallback: true,
+    /*any request to meetups for which no page was pre-generated before will failed and show 404 error
+    get static path is ran for incoming req but it's fail after deployment>> we can fix it to set it to true
+    or 'blocking' now will not response to 404 error if it cant find the page immediately>>it will generate the page on demand
+    and then cache it so will be pre-generated when needed
+    diff between 'blocking' and true:
+    true: it will immediately return empty page and will dynamic generate the page when it's done,so we need
+    to handle this case that's the page don't have the data yet ex(add span or loading text)
+    'blocking': the user will not see anything until the page pre-generated */
+    fallback: "blocking",
     /* if it false,mean your path's contain all supported  meetupID=>that's mean if use enter something ex:m3=>will see 404 error,if it true next js will try to generate page
     for this meetup id dynamically on the server for incoming request,it's good features because it's allow us to pre-generate some of your pages for specific meetup id value
     (ex :page visit most frequently and pre generate the messing one dynamically when request for them are coming in) 
