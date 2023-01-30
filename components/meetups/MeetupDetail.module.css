@@ -1,0 +1,14 @@
+/* css module it's allow you to scope css class style  to a react component and it support of the box in
+ next js project
+ if you import css module inside js file then css style defined in css file will be scoped to this component
+ */
+.detail {
+  text-align: center;
+}
+.detail img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 20%;
+  padding: 5px;
+}
